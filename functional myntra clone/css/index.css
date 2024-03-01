@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+/* nav bar */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    box-shadow: 0px 5px 10px #f6f6f6;
+}
+.myntra_home{
+    height:45px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar a{
+    color: #282c3f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    padding: 28px 0px;
+    border-bottom: 3px solid #fff;
+}
+
+.men:hover{
+    border-bottom: 3px solid #f13866;
+}
+.women:hover{
+    border-bottom: 3px solid #ea0aa7;
+}
+.kids:hover{
+    border-bottom: 3px solid #c02c07;
+}
+.home:hover{
+    border-bottom: 3px solid #e5c433;
+}
+.Beauty:hover{
+    border-bottom: 3px solid #587058;
+}
+.studio:hover{
+    border-bottom: 3px solid #f54e77;
+}
+
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+    display: flex;
+    height:40px;
+    min-width: 200px;
+    width:30%;
+    align-items: center;
+}
+.search_icon{
+    background-color: #f5f5f6;
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    color: #282c3f;
+    font-weight: 100px;
+    border-radius: 4px 0px 0px 4px;
+}
+.search_input{
+    background-color: #f5f5f6;
+    box-sizing: content-box;
+    flex-grow: 2;
+    color:#696e79;
+    height: 40px;
+    border: 0px;
+    border-radius: 0px 4px 4px 0px;
+}
+.action_bar{
+    display:flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* main setion */
+
+.items-container{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 10%;
+}
+
+.item-container{
+    width: 200px;
+    margin:10px;
+}
+
+.item-image{
+    width:100%;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.company{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+
+.price{
+    margin-top: 10px;
+    line-height: 15px;
+    white-space: nowrap;
+}
+
+.current-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn-addBag{
+    width:100%;
+    margin-top: 8px;
+    font-size: 15px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    padding:5px 15px;
+    display: block;
+    cursor: pointer;
+}
+
+
+/* footer section */
+.footer_container{
+    background-color: #fafbfc;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    color:#282c3f;
+    margin-bottom:25px;
+}
+.footer_column a{
+    color:#696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px ;
+}
+.copyright{
+    color:#94969f;
+    text-align: end;
+    padding:15px;
+}
+
+/* shopping cart */
+a.action_container{
+    color: black;
+    text-decoration: none;
+}
+
+.bag-item-count{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
